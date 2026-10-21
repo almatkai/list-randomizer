@@ -3,7 +3,7 @@
   "name": "list-randomizer",
   "title": "List Randomizer",
   "description": "Randomizes a list of items",
-  "icon": "command-icon.png",
+  "icon": "assets/command-icon.png",
   "author": "almatkai",
   "categories": [
     "Data"
