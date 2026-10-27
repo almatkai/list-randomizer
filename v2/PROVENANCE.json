@@ -1,0 +1,43 @@
+{
+  "original": {
+    "repository": "https://github.com/raycast/extensions",
+    "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+    "path": "extensions/list-randomizer",
+    "author": "quuu",
+    "license": "MIT",
+    "sha256": {
+      "tests/fixtures/original/LICENSE": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "tests/fixtures/original/command-icon.png": "26649b70577b2a7b03fe08767e196f2c31cfd09cc7a09e903cc1d2ba5f67cd66",
+      "tests/fixtures/original/fileWrite.tsx": "a116f2ec57afccd85c73d5d987d5181d369d331e6b2a0b74c6499e58a5cf453e",
+      "tests/fixtures/original/index.tsx": "9d1f75f55300e5b26fcbeee36dc92dbc7783f57249fbaaa3d0d5ccf5e4f86930",
+      "tests/fixtures/original/package.json": "b7398fa56164219b7f233851a6eed43520341a979f157fa2497f596d64a8836c"
+    }
+  },
+  "apiReference": {
+    "repository": "https://github.com/almatkai/Tezbar",
+    "commit": "fd300e276356587726566026f072563eb9c34cb1",
+    "license": "Apache-2.0",
+    "files": {
+      "common.rs": "src-tauri/src/native_core/common.rs",
+      "v2_sdk.rs": "src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "extension-v2.schema.json": "schemas/extension-v2.schema.json",
+      "LICENSE": "LICENSE",
+      "list-runtime.tsx": "src/renderer/src/raycast-api/list-runtime.tsx",
+      "form-runtime.tsx": "src/renderer/src/raycast-api/form-runtime.tsx"
+    },
+    "sha256": {
+      "tests/fixtures/beta/LICENSE": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "tests/fixtures/beta/common.rs": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7",
+      "tests/fixtures/beta/extension-v2.schema.json": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af",
+      "tests/fixtures/beta/form-runtime.tsx": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6",
+      "tests/fixtures/beta/list-runtime.tsx": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f",
+      "tests/fixtures/beta/v2_sdk.rs": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2"
+    }
+  },
+  "icon": {
+    "source": "assets/command-icon.png",
+    "bytes": 23003,
+    "sha256": "26649b70577b2a7b03fe08767e196f2c31cfd09cc7a09e903cc1d2ba5f67cd66",
+    "hostDestination": "src/renderer/public/extensions/icons/list-randomizer.png"
+  }
+}

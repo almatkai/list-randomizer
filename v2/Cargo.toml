@@ -1,0 +1,20 @@
+[package]
+name = "list-randomizer-v2"
+version = "0.2.0"
+edition = "2021"
+autotests = false
+rust-version = "1.85"
+license = "MIT AND Apache-2.0"
+description = "Compiled-in Tezbar Native V2 List Randomizer, originally by quuu"
+repository = "https://github.com/almatkai/list-randomizer"
+include = ["src/**", "tezbar_adapter.rs", "tests/**", "scripts/**", "assets/**", "Cargo.toml", "Cargo.lock", "extension.json", "README.md", "PROVENANCE.json", "LICENSE-MIT", "VALIDATION.md"]
+
+[dependencies]
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = { version = "=1.0.145", features = ["float_roundtrip"] }
+rand = "=0.8.5"
+
+[dev-dependencies]
+tokio = { version = "=1.48.0", features = ["rt-multi-thread", "macros", "sync"] }
+tempfile = "=3.23.0"
+log = "=0.4.28"

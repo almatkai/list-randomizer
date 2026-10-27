@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.list-randomizer",
+  "slug": "list-randomizer",
+  "name": "List Randomizer",
+  "version": "0.2.0",
+  "description": "Randomizes a list of items. Native Rust port of quuu’s MIT-licensed Raycast List Randomizer.",
+  "icon": "/extensions/icons/list-randomizer.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.list-randomizer"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "preferences": [],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Randomize List",
+      "description": "Add items to a list and randomize it",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Host registration, rebuild and real OS UI/clipboard QA pending."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Host registration, rebuild and real OS UI/clipboard QA pending."
+    }
+  ]
+}
